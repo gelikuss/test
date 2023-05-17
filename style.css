@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    background-color:antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 50vw;
+}
+
+.headerLink {
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.2s linear;
+}
+
+.headerLink:hover {
+    padding: 10px;
+    background-color: white;
+}
+
+.headerLink:enabled {
+    background-color: aqua;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sparond {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.act {
+    background-color: lightgray;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.mainText {
+    font-size: 20px;
+}
+
+.formula {
+    font-size: 30px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.picSize1 {
+    width: 100px;
+    height: 100px;
+}
+
+.picSize2 {
+    width: 200px;
+    height: 200px;
+}
+
+.picSize3 {
+    width: 300px;
+    height: 300px;
+}
+
+.picSize4 {
+    width: 400px;
+    height: 400px;
+}
+
+.picSize5 {
+    width: 500px;
+    height: 500px;
+}
+
+.images {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: orange;
+}
+
+.green {
+    color: green
+}
+
+.undln {
+    text-decoration:underline;
+}
+
+.mgb5 {
+    margin-bottom: 5px;
+}
+
+.mgb10 {
+    margin-bottom: 10px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.mg20 {
+    margin: 20px;
+}
+
+.mg30 {
+    margin: 30px;
+}
+
+.mg40 {
+    margin: 40px;
+}
+
+.pa5 {
+    padding: 5px;
+}
+
+.linkBtn {
+    background-color: lightgray;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+
+.linkBtn:hover {
+    background-color: white;
+}
+
+.contentText {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    transition: 0.2s linear;
+}
+
+.contentText:hover {
+    background-color: white
+}
+
+.contentUl {
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
